@@ -5,12 +5,19 @@
 </head>
 <body>
   <h1>Login</h1>
-  <form action="login.php" method="post">
-    <label for="email">Email nebo uživatelské jméno:</label>
-    <input type="text" id="email" name="email"><br>
-    <label for="password">Heslo:</label>
-    <input type="password" id="password" name="password"><br><br>
-    <input type="submit" value="Submit">
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="password">Enter your password: </label>
+      <input type="password" name="password" id="password" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
   </form>
 </body>
 </html>
